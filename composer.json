@@ -1,0 +1,31 @@
+{
+    "name": "codeplace-io/preview-password-type-bundle",
+    "type": "symfony-bundle",
+    "description": "show/hide value of password field",
+    "keywords": [
+        "Symfony",
+        "Codeplace"
+    ],
+    "homepage": "https://github.com/codeplace-io/PreviewPasswordTypeBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maciej Żukiewicz",
+            "email": "maciej.zukiewicz@codeplace.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2",
+        "symfony/framework-bundle": ">=3.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeplace\\PreviewPasswordTypeBundle\\": "src/"
+        }
+    }
+}
